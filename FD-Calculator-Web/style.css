@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(212, 166, 189);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px rgba(198, 193, 193, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+.container:hover {
+    background-color: rgb(212, 166, 189);
+    box-shadow: 5px 5px 10px grey
+
+}
+
+h1 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid rgb(80, 61, 67);
+    border-radius: 100px;
+}
+
+.resultClass {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.calculateClssBtn {
+    padding: 10px 20px;
+    background-color: rgb(113, 36, 89);
+    color: rgb(212, 166, 189);
+    font-size: 15px;
+
+}
+.calculateClssBtn:hover {
+    background-color: rgb(17, 21, 15);
+    color: rgb(212, 59, 136);
+    font-size: 15px;
+    /* border: none; */
+    font-weight: bolder;
+    padding: 10px 20px;
+    cursor: pointer;
+}

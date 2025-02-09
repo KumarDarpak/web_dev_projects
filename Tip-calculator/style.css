@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 234, 234);
+    margin-top: 30px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5px;
+    
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    border: none;
+    width: 280px;
+    padding: 30px 10px;
+}
+.container:hover {
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);  
+}
+
+
+label {
+    margin-right: 50px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+input {
+    margin-bottom: 5px;
+    width: 240px;
+}
+
+.calcButtonClass {
+    background-color: rgb(15, 196, 15);
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    transition: background-color 0.3s ease;
+    width: 250px;
+    padding: 1px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.calcButtonClass:hover {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 240px;
+    padding: 1px;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
+.billAmountClass {
+    text-align: left;
+}
+
+.resultclass {
+    margin-top: 30px;  
+    margin-right: 150px;
+}
+
+.resultTipAmountClass {
+    margin-bottom: 10px;
+}
